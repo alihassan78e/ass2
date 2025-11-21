@@ -1,0 +1,21 @@
+1-The program uses fork() to create a new process. After the fork, there are two processes:
+
+the child process (pid = 0)
+
+the parent process (pid > 0)
+Each one prints its own PID. It shows how fork duplicates a process.
+
+2-sleep 300 & runs the sleep command in the background.
+jobs shows the background process that is running.
+
+3-ps aux | grep sleep finds the PID of the sleep process.
+kill <PID> stops (terminates) that process.
+
+4-kill -STOP <PID> pauses the process.
+kill -CONT <PID> resumes the process again.
+
+5-The linker combines multiple C files into one program.
+In the lab, it connects the hello() function in ali1.c with the call to hello() in ali2.c.
+
+6-The loader loads the program and its shared libraries into memory.
+It prepares everything so the program can start running (shown using ldd)
