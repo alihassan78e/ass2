@@ -1,6 +1,6 @@
 all: ali output_program simple_program
 
-kassab: ali.c
+ali: ali.c
 	gcc ali.c -o ali.c
 
 output_program: ali1.c ali2.c
